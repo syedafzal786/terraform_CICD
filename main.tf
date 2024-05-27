@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "ayush" {
-  ami           = "ami-0cc9838aa7ab1dce7"
+  ami           = "ami-0ac9397cab55f5044"
   instance_type = "t2.micro"
   key_name      = "syed2"
 
